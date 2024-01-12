@@ -1,0 +1,34 @@
+html,body {
+  background-color: #0f0f0f;
+  font-family:"Verdana",sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+  font-family:"Segoe UI",sans-serif;
+}
+
+p {
+  color: white;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
