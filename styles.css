@@ -1,18 +1,34 @@
-html,body {
+/* Style the body */
+body {
   background-color: #0f0f0f;
   font-family:"Verdana",sans-serif;
   padding: 30px;
   margin: 50px;
 }
 
+/* Style the header */
+header {
+  background-color: #0f0f0f;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family:"Segoe UI",sans-serif;
+}
+
 h1,h2,h3,h4,h5,h6 {
   color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
   font-family:"Segoe UI",sans-serif;
 }
 
 p {
   color: white;
 }
+
+/* Setting up link style */
 
 a:link {
   color: green;
@@ -33,4 +49,45 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* Box shaping */
+{
+  box-sizing: border-box;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
