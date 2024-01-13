@@ -5,7 +5,7 @@ body {
   padding: 30px;
   margin: 50px;
   background-image: url('https://www.w3docs.com/uploads/media/default/0001/01/477719675fecaac0362957c214fb9aa56fca99b5.jpeg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center;
 }
@@ -18,6 +18,7 @@ header {
   font-size: 35px;
   color: white;
   font-family:"Segoe UI",sans-serif;
+  opacity: 0.5;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,6 +27,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
   font-size: 35px;
   font-family:"Segoe UI",sans-serif;
+  opacity: 0.5;
 }
 
 p {
@@ -45,12 +47,14 @@ nav {
   flex: 1;
   background: #ccc;
   padding: 20px;
+  opacity: 0.5;
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
+  opacity: 0.5;
 }
 
 /* Style the content */
@@ -60,6 +64,7 @@ article {
   flex: 3;
   background-color: #f1f1f1;
   padding: 10px;
+  opacity: 0.5;
 }
 
 /* Style the footer */
@@ -68,6 +73,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
+  opacity: 0.5;
 }
 
 /* Setting up link style */
