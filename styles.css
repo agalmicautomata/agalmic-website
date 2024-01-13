@@ -36,7 +36,7 @@ section {
 }
 
 /* Style the navigation menu nav_ */
-aside {
+nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
