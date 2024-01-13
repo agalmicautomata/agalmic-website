@@ -4,6 +4,7 @@ body {
   font-family:"Verdana",sans-serif;
   padding: 30px;
   margin: 50px;
+  border: 1px solid black;
 }
 
 /* Style the header */
