@@ -78,12 +78,12 @@ footer {
 /* Setting up link style */
 
 a:link {
-  color: green;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: pink;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -93,7 +93,7 @@ a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: yellow;
+  color: pink;
   background-color: transparent;
   text-decoration: underline;
 }
