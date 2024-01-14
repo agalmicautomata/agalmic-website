@@ -5,13 +5,22 @@ body {
   padding: 5px;
   border: 3px solid black;
   margin: 5px;
-  /* overflow: hidden;*/
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  background: url('images/rainue.png');
+  animation: rain-animate 1s linear infinite;
 }
 
 html {
-  width: 105%;
-  height: 105%;
-  background: url(images/backgrounding.png)
+  width: 100%;
+  height: 100%;
+  background: url('images/backgrounding.png')
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
 /* Style the header */
@@ -118,12 +127,6 @@ a:active {
 }
 
 /* Kanawashi Rain */
-body {
- height: 100%;
- background: url(images/rainue.png);
- animation: rain-animate 1s linear infinite;
-}
-
 @keyframes rain-animate{
   0%{
     background-position: 0% 0%;
