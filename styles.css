@@ -110,3 +110,19 @@ a:active {
     flex-direction: column;
   }
 }
+
+/* Kanawashi Rain */
+.rain_container{
+ height: 100%;
+ background: url(https://pngimg.com/uploads/rain/rain_PNG13467.png);
+ animation: rain-animate .3s linear infinite;
+}
+
+@keyframes rain-animate{
+  0%{
+    background-position: 0% 0%;
+  }
+  100%{
+    background-position: 20% 100%;
+  }
+}
