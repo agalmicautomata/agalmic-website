@@ -1,17 +1,14 @@
 /* Style the body */
 body {
+  height: 100%;
+  background: url('images/rainue.png');
+  animation: rain-animate 1s linear infinite;
   background-color: #0f0f0f;
   font-family: 'Space Mono', monospace;
   padding: 5px;
   border: 3px solid black;
   margin: 5px;
   overflow: hidden;
-}
-
-body {
-  height: 100%;
-  background: url('images/rainue.png');
-  animation: rain-animate 1s linear infinite;
 }
 
 html {
@@ -129,9 +126,9 @@ a:active {
 /* Kanawashi Rain */
 @keyframes rain-animate{
   0%{
-    background-position: 0% 0%;
+    background-position: 20% 100%;
   }
   100%{
-    background-position: 20% 100%;
+    background-position: 0% 0%;
   }
 }
