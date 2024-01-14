@@ -2,7 +2,7 @@
 body {
   height: 100%;
   background: url('images/rainue.png');
-  animation: rain-animate 1s linear infinite;
+  animation: rain-animate 0.2s linear infinite;
   background-color: #0f0f0f;
   font-family: 'Space Mono', monospace;
   padding: 5px;
