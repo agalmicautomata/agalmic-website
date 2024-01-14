@@ -13,9 +13,9 @@ body {
   font-family: 'Space Mono', monospace;
   background: url('images/rainue.png');
   animation: rain-animate 0.2s linear infinite;
-  padding: 5px;
-  border: 3px solid black;
-  margin: 35px;
+  padding: 55px;
+  margin: -5px;
+  height: 100%;
   /*overflow: hidden;*/
 }
 
