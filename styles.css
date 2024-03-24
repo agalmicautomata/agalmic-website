@@ -12,7 +12,6 @@ html {
 body {
   font-family: 'Space Mono', monospace;
   background: url('images/rainue.png');
-  background-repeat: repeat-y;
   animation: rain-animate 0.2s linear infinite;
   padding: 55px;
   margin: -5px;
