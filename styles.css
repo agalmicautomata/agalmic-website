@@ -127,8 +127,10 @@ a:active {
 @keyframes rain-animate{
   0%{
     background-position: 20% 100%;
+    background-repeat: repeat-y;
   }
   100%{
     background-position: 0% 0%;
+    background-repeat: repeat-y;
   }
 }
