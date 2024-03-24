@@ -1,24 +1,17 @@
 /* Style the body */
 
 html {
-  width: 100%;
-  height: 100%;
-  background: url('images/backgrounding.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-
-body {
   font-family: 'Space Mono', monospace;
-  background: url('images/rainue.png');
-  background-attachment: fixed;
-  animation: rain-animate 0.2s linear infinite;
+  background: url('images/rainue.png'), url('images/backgrounding.png');
+  width: 100%, 100%;
+  height: 100%, 100%;
+  min-height: 100%, 100%;
   padding: 55px;
   margin: -5px;
-  height: 100%;
-  min-height: 100%;
-  /*overflow: hidden;*/
+  background-repeat: no-repeat, repeat-y;
+  background-size: cover, cover;
+  animation: rain-animate 0.2s linear infinite;
+  overflow: hidden;
 }
 
 /* Style the header */
@@ -127,9 +120,41 @@ a:active {
 /* Kanawashi Rain */
 @keyframes rain-animate{
   0%{
+    background-position: 0 0, 20% 100%;
+  }
+  100%{
+    background-position: 0 0, 0% 0%;
+  }
+}
+
+/*
+@keyframes rain-animate{
+  0%{
     background-position: 20% 100%;
   }
   100%{
     background-position: 0% 0%;
   }
 }
+
+html {
+  width: 100%;
+  height: 100%;
+  background: url('images/rainue.png'), url('images/backgrounding.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  background: url('images/rainue.png');
+  background-repeat: repeat-y;
+  animation: rain-animate 0.2s linear infinite;
+  padding: 55px;
+  margin: -5px;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+*/
