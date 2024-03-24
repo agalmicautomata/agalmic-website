@@ -11,13 +11,13 @@ html {
 
 body {
   font-family: 'Space Mono', monospace;
-  background: url('images/rainue.png');
+  background: url('images/rainue.png') repeat-x;
   animation: rain-animate 0.2s linear infinite;
   padding: 55px;
   margin: -5px;
   height: 100%;
   min-height: 100%;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 /* Style the header */
@@ -127,10 +127,8 @@ a:active {
 @keyframes rain-animate{
   0%{
     background-position: 20% 100%;
-    background-repeat: repeat-y;
   }
   100%{
     background-position: 0% 0%;
-    background-repeat: repeat-y;
   }
 }
