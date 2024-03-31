@@ -1,4 +1,4 @@
-/* Style the body */
+t/* Style the body */
 
 html {
   font-family: 'Space Mono', monospace;
@@ -8,8 +8,8 @@ html {
   min-height: 100%;
   padding: 10%;
   margin: -5px;
-  background-repeat: repeat-y, repeat;
-  background-size: cover;
+  background-repeat: repeat-y, no-repeat;
+  background-size: cover, contain;
   animation: rain-animate 0.2s linear infinite;
 }
 
