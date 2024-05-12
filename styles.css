@@ -8,8 +8,7 @@ html {
   min-height: 100%;
   padding: 10%;
   margin: -5px;
-  background-repeat: repeat-y, norepeat;
-  background-size: cover;
+  background-repeat: repeat-y, no-repeat;
   animation: rain-animate 0.2s linear infinite;
 }
 
