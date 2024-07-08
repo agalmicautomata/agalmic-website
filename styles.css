@@ -2,14 +2,15 @@
 
 html {
   font-family: 'Space Mono', monospace;
-  background: url('https://agalmicautomata.com/images/rainue.png'), url('https://agalmicautomata.com/images/background.jpg');
+  background-color: black;
+  /*background: url('https://agalmicautomata.com/images/rainue.png'), url('https://agalmicautomata.com/images/background.jpg');*/
   width: 100%;
   height: 100%;
   min-height: 100%;
   padding: 10%;
   margin: -5px;
-  background-repeat: repeat-y, repeat-y;
-  animation: rain-animate 0.2s linear infinite;
+  /*background-repeat: repeat-y, repeat-y;
+  animation: rain-animate 0.2s linear infinite;*/
 }
 
 /* Style the header */
@@ -115,7 +116,7 @@ a:active {
   }
 }
 
-/* Kanawashi Rain */
+/* Kanawashi Rain
 @keyframes rain-animate{
   0%{
     background-position: 20% 100%, 0% 0%;
@@ -123,36 +124,4 @@ a:active {
   100%{
     background-position: 0% 0%;
   }
-}
-
-/*
-@keyframes rain-animate{
-  0%{
-    background-position: 20% 100%;
-  }
-  100%{
-    background-position: 0% 0%;
-  }
-}
-
-html {
-  width: 100%;
-  height: 100%;
-  background: url('images/rainue.png'), url('images/backgrounding.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-
-body {
-  font-family: 'Space Mono', monospace;
-  background: url('images/rainue.png');
-  background-repeat: repeat-y;
-  animation: rain-animate 0.2s linear infinite;
-  padding: 55px;
-  margin: -5px;
-  height: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-*/
+} */
